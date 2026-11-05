@@ -16,6 +16,15 @@
         <label for="sconto">Sconto (%)</label>
         <input type="text" id="sconto" name="sconto">
         <button type="submit">Calcola</button>
+
+
+        <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'): 
+        $prodotto = $_POST['prodotto'];
+        $prezzo = $_POST['prezzo'];
+        $altezza_cm = $_POST['altezza'];
+
+
+        ?>
     </form>
 </body>
 </html>
