@@ -3,20 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Calcolatore di sconto</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #F1F3F5; text-align: center; }
-        form { width: 300px; margin: 0 auto; padding: 24px; background: white; border-radius: 12px; text-align: left; }
-        label { display: block; margin-top: 12px; font-weight: bold; }
-        input, button { width: 100%; padding: 8px; box-sizing: border-box; }
-        button { margin-top: 20px; background: #1F2328; color: white; border: none; border-radius: 8px; }
-        .errore { border: 2px solid #B32D2D; }
-        .msg-errore { color: #B32D2D; font-size: 13px; margin: 4px 0 0; }
-
-        .card { width: 300px; margin: 20px auto; padding: 16px; border-radius: 12px; }
-        .piccolo { background-color: #E2E8F0; }
-        .buono { background-color: #FEF08A; }
-        .super { background-color: #BBF7D0; }
-    </style>
+    <link rel="stylesheet" href="stile.css">
 </head>
 <body>
 
